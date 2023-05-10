@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronDown, ChevronUp } from "../icons";
-import { removeItem } from "../features/cart/cartSlice";
+import { removeItem, increase, decrease } from "../features/cart/cartSlice";
 import { useDispatch } from "react-redux";
 
 const CartItem = ({ id, img, title, price, amount }) => {
@@ -23,7 +23,10 @@ const CartItem = ({ id, img, title, price, amount }) => {
       </div>
       <div>
         {/* increase amount */}
-        <button className="amount-btn">
+        <button
+          onClick={() => dispatch(increase({ id }))}
+          className="amount-btn"
+        >
           <ChevronUp />
         </button>
         {/* amount */}
