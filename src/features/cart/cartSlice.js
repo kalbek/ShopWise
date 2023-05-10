@@ -7,6 +7,15 @@ const initialState = {
   isLoading: true,
 };
 
-const cartSlice = createSlice({ name: "cart", initialState });
+const cartSlice = createSlice({
+  name: "cart",
+  initialState,
+  reducers: {
+    clearCart: (state) => {
+      state.cartItems = [];
+    },
+  },
+});
+export const { clearCart } = cartSlice.actions;
 console.log(cartSlice);
 export default cartSlice.reducer;
