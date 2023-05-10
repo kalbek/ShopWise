@@ -31,10 +31,12 @@ const cartSlice = createSlice({
       let total = 0;
       state.cartItems.forEach((item) => {
         amount += item.amount;
-        total += item.total;
+        total += item.amount * item.price;
       });
       state.amount = amount;
       state.total = total;
+      console.log("total: ", total);
+      console.log("state.total: ", state.total);
     },
   },
 });
