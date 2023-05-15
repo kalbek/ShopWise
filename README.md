@@ -35,7 +35,7 @@
 
 ### Live Demo <a name="live-demo"></a>
 
-> [see-live-demo](https://kalbek.github.io/bookstore/)
+> [see-live-demo](https://kalbek.github.io/Redux-basics/)
 
 <details>
   <summary>Client</summary>
