@@ -72,7 +72,7 @@ Introducing **ShopWise🛍️**, the next-generation e-commerce platform designe
 
 ### Live Demo <a name="live-demo"></a>
 
-> [see-live-demo](https://kalbek.github.io/Redux-basics/)
+> [see-live-demo](https://kalbek.github.io/ShopWise/)
 
 ### Key Features <a name="key-features"></a>
 
