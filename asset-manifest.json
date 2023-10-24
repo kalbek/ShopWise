@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ShopWise/static/css/main.a1407077.css",
+    "main.js": "/ShopWise/static/js/main.f95355a6.js",
+    "index.html": "/ShopWise/index.html",
+    "main.a1407077.css.map": "/ShopWise/static/css/main.a1407077.css.map",
+    "main.f95355a6.js.map": "/ShopWise/static/js/main.f95355a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1407077.css",
+    "static/js/main.f95355a6.js"
+  ]
+}
